@@ -1,7 +1,7 @@
 import { join } from 'node:path'
 import { config as sharedConfig } from './wdio.shared.conf.ts'
 
-export const config: Omit<WebdriverIO.Config, 'capabilities'>  = {
+export const config: Omit<WebdriverIO.Config, 'capabilities'> = {
     ...sharedConfig,
     logLevel: 'silent',
     // ========
